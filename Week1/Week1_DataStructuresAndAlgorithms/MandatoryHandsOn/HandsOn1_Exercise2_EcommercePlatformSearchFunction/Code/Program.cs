@@ -98,7 +98,7 @@ namespace EcommerceSearch
       int binaryResult = BinarySearch(sortedProducts, searchTerm);
       if (binaryResult != -1)
       {
-        Console.WriteLine($"Found '{sortedProducts[binaryResult].ProductName}' at index {binaryResult} (Binary Search)");
+        Console.WriteLine($"Found '{sortedProducts[binaryResult].ProductName}' at index {binaryResult} of sorted products array (Binary Search)");
       }
       else
       {
