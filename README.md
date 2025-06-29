@@ -7,4 +7,4 @@ All the Important Details are mentioned below-\
 **Superset Id**: 6363771\
 **Track**: DotNet FSE
 
-*Note*:  Any **theory type Questions or explanatory Questions** of a specific exercise are answered as `Console.WriteLine("Answer goes here");` print statements at the end of the code file and can be viewed either in the *.cs code file* or in the *output screenshots* as well.
+*Note*:  Any **theory type Questions or explanatory Questions** of a specific exercise are answered as `Console.WriteLine("Answer goes here");` print statements at the end of the code file and can be viewed either in the *.cs code file* or in the *output screenshots* or as a QnA.docx file as well.
