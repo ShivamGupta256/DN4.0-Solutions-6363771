@@ -1,5 +1,4 @@
 using Microsoft.AspNetCore.Mvc;
-using WebApiDemo.Filters;
 using Microsoft.AspNetCore.Authorization;
 
 namespace WebApiDemo.Controllers

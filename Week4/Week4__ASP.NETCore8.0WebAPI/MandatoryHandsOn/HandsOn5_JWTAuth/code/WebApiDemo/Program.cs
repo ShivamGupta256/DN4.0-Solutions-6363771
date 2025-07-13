@@ -1,5 +1,4 @@
 using Microsoft.OpenApi.Models;
-using WebApiDemo.Filters;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
@@ -27,10 +26,7 @@ builder.Services.AddAuthentication(options =>
     };
 });
 
-builder.Services.AddControllers(options =>
-{
-    options.Filters.Add(typeof(CustomExceptionFilter));
-});
+builder.Services.AddControllers();
 
 builder.Services.AddEndpointsApiExplorer();
 
